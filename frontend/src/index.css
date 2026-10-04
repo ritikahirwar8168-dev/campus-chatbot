@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(1200px 500px at 10% -10%, rgba(201, 162, 74, 0.12), transparent 50%),
+    radial-gradient(900px 400px at 100% 0%, rgba(79, 143, 106, 0.1), transparent 45%),
+    #0c1210;
+  color: #e8eee9;
+}
+
+.ring-meter {
+  background: conic-gradient(var(--ring) calc(var(--pct) * 1%), #24322c 0);
+}
